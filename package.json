@@ -1,0 +1,39 @@
+{
+    "name": "bulk-image-modifier",
+    "version": "1.0.0",
+    "description": "A utility used to modify images (resize, rename, optimize) in bulk.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon ./index.js localhost 8080"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sundas1997/bulk-image-modifier.git"
+    },
+    "keywords": [
+        "bulk",
+        "image",
+        "modifier",
+        "resize",
+        "images",
+        "in",
+        "bulk",
+        "optimize",
+        "images",
+        "in",
+        "bulk"
+    ],
+    "author": "Sundas Riasat",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Sundas1997/bulk-image-modifier/issues"
+    },
+    "homepage": "https://github.com/Sundas1997/bulk-image-modifier#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
