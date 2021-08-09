@@ -34,6 +34,7 @@
         "nodemon": "^2.0.12"
     },
     "dependencies": {
+        "compress-images": "^1.9.9",
         "express": "^4.17.1"
     }
 }

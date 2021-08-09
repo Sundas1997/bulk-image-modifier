@@ -1,0 +1,21 @@
+@import '../../variables.scss';
+.nav-item {
+    width: fit-content;
+    padding: 10px;
+    margin: 0 20px;
+    .navlink {
+        text-decoration: none;
+        text-align: center;
+        color: $spun-pearl;
+        font-size: 24px;
+        transition: 0.4s all ease;
+        &:hover,
+        &.navlink-active {
+            color: $candlelight;
+        }
+        svg {
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+    }
+}

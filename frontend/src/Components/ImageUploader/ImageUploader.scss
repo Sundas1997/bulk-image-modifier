@@ -1,0 +1,40 @@
+@import '../../variables.scss';
+.upload-label {
+    color: $candlelight;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dropzone-wrapper {
+    border: 1px solid $ebony-clay;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.preview-wrapper {
+    border-bottom: 1px solid $ebony-clay;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.input-label-with-files {
+    color: $martinique;
+    transition: 0.4s all ease;
+    cursor: pointer;
+    &::before {
+        content: '+ '
+    }
+    &::after {
+        content: ' (Or drop files to add) '
+    }
+    &:hover {
+        color: $candlelight;
+    }
+}

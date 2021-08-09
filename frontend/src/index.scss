@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+@import './variables.scss';
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: $shark;
+    color: $spun-pearl;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    color: $white;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.btn-primary {
+    background-color: $candlelight !important;
+    border-color: $candlelight;
+    color: $shark !important;
+    font-weight: 600 !important;
+    min-width: 200px;
+    box-shadow: none !important;
+    &:hover {
+        background-color: $candlelight !important;
+        border-color: candlelight;
+        filter: brightness(0.92);
+    }
+}
+
+.btn-secondary {
+    background-color: $ebony-clay !important;
+    border-color: $ebony-clay;
+    color: $spun-pearl !important;
+    font-weight: 600 !important;
+    min-width: 200px;
+    box-shadow: none !important;
+    &:hover {
+        background-color: $ebony-clay !important;
+        border-color: $ebony-clay;
+        filter: brightness(0.92);
+    }
+}
